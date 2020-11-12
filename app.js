@@ -11,4 +11,4 @@ app.use(cors());
 
 app.use("/api", require("./src/routes"));
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
